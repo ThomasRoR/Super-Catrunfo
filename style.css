@@ -1,0 +1,159 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 854px;
+  background-color: #202122;
+  background-size: 240px 190px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+  background-image: url("flower-illustration-Graphics-11269490-1-580x387.png");
+  background-repeat: repeat;
+
+  background: linear-gradient(
+      45deg,
+      transparent 49%,
+      #efdcdc 49% 51%,
+      transparent 51%
+    ),
+    linear-gradient(-45deg, transparent 49%, #cce6ff 49% 51%, transparent 51%);
+  background-size: 6em 6em;
+  background-color: #323232;
+  opacity: 1;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-size: 30px;
+  text-shadow: 2px 0 #efdcdc, -2px 0 #efdcdc, 0 2px #efdcdc, 0 -2px #efdcdc,
+    1px 1px #efdcdc, -1px -1px #efdcdc, 1px -1px #efdcdc, -1px 1px #efdcdc;
+}
+
+.page-title {
+  color: black;
+  margin: 5px 0;
+  text-shadow: 2px 0 #efdcdc, -2px 0 #efdcdc, 0 2px #efdcdc, 0 -2px #efdcdc,
+    1px 1px #efdcdc, -1px -1px #efdcdc, 1px -1px #efdcdc, -1px 1px #efdcdc;
+}
+
+button,
+.button-jogar {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  color: #ffcccc;
+  background-color: #3e3e3e;
+  width: 175px;
+  height: 60px;
+  padding: 20px;
+}
+
+.button-jogar:hover {
+  background-color: #cce6ff;
+  box-shadow: 1px 8px 10px #efdcdc;
+  color: #323232;
+  transform: translateY(-7px);
+  transition: 0.9s;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 0 #efdcdc, -2px 0 #efdcdc, 0 2px #efdcdc, 0 -2px #efdcdc,
+    1px 1px #efdcdc, -1px -1px #efdcdc, 1px -1px #efdcdc, -1px 1px #efdcdc;
+}
+
+#carta-jogador,
+#carta-maquina {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  position: center;
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 10px;
+  border-radius: 33px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+.carta-status {
+  height: 160px;
+  margin: 2rem;
+  color: white;
+  z-index: 2;
+}
+
+.carta-status input {
+  margin: 20px 10px;
+}
+
+.resultado-final {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  gap: 65px;
+  justify-content: center;
+}
+
+.carta-subtitle {
+  z-index: 2;
+  position: absolute;
+  top: 16px;
+  left: 37px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carta-status p {
+  margin-bottom: 2rem;
+}
+.page-logo {
+  width: 760px;
+  height: 160px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title> Imersão Dev - Aula 08</title>
+  </head>
+  <body>
+    <body>
+        <div class="container">
+            <img src="https://cdn.discordapp.com/attachments/1014714594599653459/1046975680157589514/logo-super-trunfo.png" class="page-logo"
+                alt="">
+            <h1 class="page-title"></h1>
+            <button class="button-jogar" onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+            <form id="form">
+                <h2>Escolha o seu atributo</h2>
+                <div class="wrapper">
+                    <div>
+                        <div id="carta-jogador">
+                            <img src="https://cdn.discordapp.com/attachments/1014714594599653459/1046967010782887957/card-super-trunfo-transparent-ajustado.png"
+                                style=" width: inherit; height: inherit; position: absolute;">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="carta-maquina" class="carta"><img
+                                src="https://cdn.discordapp.com/attachments/1014714594599653459/1046967010782887957/card-super-trunfo-transparent-ajustado.png"
+                                style=" width: inherit; height: inherit; position: absolute;"></div>
+                    </div>
+                </div>
+                <div id="resultado"></div>
+            </form>
+        <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>
