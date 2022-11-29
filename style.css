@@ -103,6 +103,7 @@ h2 {
   margin: 2rem;
   color: white;
   z-index: 2;
+  justify-content: center;
 }
 
 .carta-status input {
@@ -110,13 +111,18 @@ h2 {
 }
 
 .resultado-final {
-  color: white;
+  color: black;
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: bolder;
   padding: 1rem;
   border: 2px solid black;
+  border-radius: 10px;
   background-color: black;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
 }
 
 .--spacing {
@@ -151,7 +157,9 @@ form {
 }
 
 .carta-status p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  margin-left: 30px;
 }
 .page-logo {
   width: 760px;
