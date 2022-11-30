@@ -74,13 +74,14 @@ h2 {
   margin-bottom: 20px;
   margin: 0 auto;
   display: flex;
-  align-items: flex-end;
   position: center;
   background-size: 350px 300px;
   background-repeat: no-repeat;
   background-position-x: 5px;
   background-position-y: 10px;
   border-radius: 33px;
+  flex-direction: column;
+  align-items: center;
 }
 
 #carta-jogador h3 {
@@ -101,7 +102,7 @@ h2 {
 .carta-status {
   height: 160px;
   margin: 2rem;
-  color: white;
+  color: #3e3e3e;
   z-index: 2;
   justify-content: center;
 }
@@ -118,11 +119,13 @@ h2 {
   padding: 1rem;
   border: 2px solid black;
   border-radius: 10px;
-  background-color: black;
+  background-color: #cce6ff;
   border-top-right-radius: 100%;
   border-top-left-radius: 100%;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
+  width: 300px;
+  text-align: center;
 }
 
 .--spacing {
@@ -143,11 +146,13 @@ form {
 
 .carta-subtitle {
   z-index: 2;
-  position: absolute;
   top: 16px;
-  left: 37px;
-  font-weight: 800;
+  justify-content: start;
+  font-weight: 600;
   text-transform: uppercase;
+  flex: 2;
+  font-size: 18px;
+  padding-top: 16px;
 }
 
 #cartas {
@@ -159,9 +164,13 @@ form {
 .carta-status p {
   margin-bottom: 1rem;
   margin-top: 0;
-  margin-left: 30px;
+  text-align: left;
+  margin-left: 20px;
 }
 .page-logo {
   width: 760px;
   height: 160px;
+}
+#resultado {
+  margin: auto;
 }

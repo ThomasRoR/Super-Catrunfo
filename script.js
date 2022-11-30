@@ -1,7 +1,7 @@
 var carta1 = {
   nome: "Meowth | Pokemon",
   imagem:
-    "https://i.pinimg.com/736x/f7/28/27/f72827a1a17808738b15b80bccf238d6.jpg",
+    "https://royalembroideries.s3.ap-south-1.amazonaws.com/wp-content/uploads/2021/10/06224043/10113-09-Pokemon-Team-Rocket-Meowth-Embroidery-Design.jpg",
   atributos: {
     fofura: 1,
     inteligencia: 10,
@@ -22,7 +22,7 @@ var carta2 = {
 var carta3 = {
   nome: "Happy | Fairy Tail",
   imagem:
-    "https://static.wikia.nocookie.net/fairytail/images/4/41/Happy_proposal.png/revision/latest?cb=20190204191609",
+    "https://ih1.redbubble.net/image.2617032463.5584/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg",
   atributos: {
     fofura: 7,
     inteligencia: 1,
@@ -33,7 +33,7 @@ var carta3 = {
 var carta4 = {
   nome: "Luna | Sailor Moon",
   imagem:
-    "https://www.kindpng.com/picc/m/304-3040527_pin-by-mrs-luna-sailor-moon-cat-hd.png",
+    "https://www.clipartkey.com/mpngs/m/106-1065914_jenniillustrations-sailormoon-luna-manekineko-gato-chibi-luna-sailor.png",
   atributos: {
     fofura: 10,
     inteligencia: 4,
@@ -98,8 +98,7 @@ var carta9 = {
 
 var carta10 = {
   nome: "Anpu | Saiki Kusuo no ψ-nan",
-  imagem:
-    "https://i.pinimg.com/474x/4c/af/e4/4cafe48535a8536f56b3b7ae8bde4cf5.jpg",
+  imagem: "https://i.ytimg.com/vi/Tk9XhrwSkMw/maxresdefault.jpg",
 
   atributos: {
     fofura: 6,
@@ -144,7 +143,7 @@ var carta13 = {
 var carta14 = {
   nome: "Baron | The Cat Returns",
   imagem:
-    "https://static.wikia.nocookie.net/disney/images/c/c0/Baron_Humbert_von_Gikkingen.png/revision/latest?cb=20140905222648",
+    "https://static.wikia.nocookie.net/disney/images/c/c0/Baron_Humbert_von_Gikkingen.png",
   atributos: {
     fofura: 1,
     inteligencia: 9,
@@ -155,7 +154,7 @@ var carta14 = {
 var carta15 = {
   nome: "Kirara | InuYasha",
   imagem:
-    "https://pm1.narvii.com/6080/4e9f9672c4820aa229ca9ce405b6def8c9a99f82_hq.jpg",
+    "https://i.pinimg.com/originals/7c/34/9a/7c349a9df00d53fc497b4e6b44fd379f.jpg",
   atributos: {
     fofura: 7,
     inteligencia: 7,
