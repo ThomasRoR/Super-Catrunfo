@@ -260,7 +260,7 @@ function exibirCartaJogador() {
   divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})`;
   // divCartaJogador.style.backgroundImage = "url(" + cartaJogador.imagem + ")"
   var moldura =
-    '<img src="https://cdn.discordapp.com/attachments/1014714594599653459/1046967010782887957/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">';
+    '<img src="https://raw.githubusercontent.com/ThomasRoR/Super-Catrunfo/refs/heads/main/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">';
   var tagHTML = "<div id='opcoes' class='carta-status'>";
 
   var opcoesTexto = "";
@@ -284,7 +284,7 @@ function exibirCartaMaquina() {
   divCartaMaquina.style.backgroundImage = `url(${cartaMaquina.imagem})`;
   // divCartaJogador.style.backgroundImage = "url(" + cartaJogador.imagem + ")"
   var moldura =
-    '<img src="https://cdn.discordapp.com/attachments/1014714594599653459/1046967010782887957/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">';
+    '<img src="https://raw.githubusercontent.com/ThomasRoR/Super-Catrunfo/refs/heads/main/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">';
   var tagHTML = "<div id='opcoes' class='carta-status'>";
 
   var opcoesTexto = "";
